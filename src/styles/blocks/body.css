@@ -1,0 +1,28 @@
+@import "./header.css";
+@import "./sidebar.css";
+@import "./footer.css";
+@import "./main/main.css";
+
+html {
+	font-family: var(--font-main);
+	font-size: var(--font-size);
+	line-height: 1.4;
+	letter-spacing: 0.02em;
+	scroll-behavior: smooth;
+	background-image: url("/bg.jpg");
+}
+
+body {
+	--scroll-bar: calc(-1 * (100vw - 100%));
+	--body-width: calc(100vw - var(--scroll-bar));
+	width: var(--body-width);
+	margin: 0 calc(-50vw + 50% + (var(--scroll-bar) / 2));
+	min-height: 100dvh;
+	max-width: 100dvw;
+
+	color: var(--color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}

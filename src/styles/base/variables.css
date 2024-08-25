@@ -1,0 +1,26 @@
+:root {
+	/* Page */
+	--page-width: 1120px;
+	--page-padding: 30px;
+	--main-width: calc(var(--page-width) + (var(--page-padding) * 2));
+
+	/* Font */
+	--font-main: sans-serif;
+
+	/* Font size */
+	--font-size: 1em;
+
+	/* Colors names */
+	--white: 255 255 255;
+	--black: 0 0 0;
+	--blue: 81 131 254;
+	--dark-blue: 17 25 40;
+	--gray-100: 221 221 221;
+	--gray-200: 165 165 165;
+	--tomate: 230 74 105;
+
+	--color: rgb(var(--white));
+	--color-bg: rgb(var(--dark-blue) / 0.75);
+
+	--color-border: rgb(var(--gray-100) / 0.2);
+}

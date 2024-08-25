@@ -1,0 +1,55 @@
+.addUser {
+	width: max-content;
+	height: max-content;
+	padding: 30px;
+	background-color: rgb(var(--dark-blue) / 0.8);
+	border-radius: 10px;
+	position: absolute;
+	inset: 0;
+	margin: auto;
+}
+
+.button {
+	background-color: rgb(var(--blue));
+	color: rgb(var(--white));
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.form {
+	display: flex;
+	gap: 20px;
+
+	input {
+		padding: 20px;
+		border-radius: 10px;
+		border: none;
+		outline: none;
+	}
+
+	.button {
+		padding: 20px;
+	}
+}
+
+.user {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.detail {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+
+		img {
+			--size: 50px;
+		}
+	}
+
+	.button {
+		padding: 10px;
+	}
+}

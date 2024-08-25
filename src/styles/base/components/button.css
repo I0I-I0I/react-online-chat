@@ -1,0 +1,13 @@
+/* Button */
+
+button {
+	background-color: transparent;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.button-disable {
+	pointer-events: none;
+}
